@@ -41,7 +41,7 @@
       {% for item in site.data.global.navbar_items %}
         <a class="navbar-item bd-navbar-item-{{ item.id }} {% if page.route == item.id %}is-active{% endif %}" href="{{ site.url }}/{{ item.id }}/">
           <span class="icon {{ item.color }}">
-            <i class="{{ item.fa_icon }}"></i>
+            <i class="{{ item.fa_type }} {{ item.fa_icon }}"></i>
           </span>
 
           <span>{{ item.title }}</span>
