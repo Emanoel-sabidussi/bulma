@@ -1,7 +1,7 @@
 <nav id="navbar" class="navbar has-shadow is-spaced">
   <div class="container">
   <div class="navbar-brand">
-    <a class="navbar-item" href="https://openmrbenelux.github.io/">
+    <a class="navbar-item" href="https://halmgren.github.io/bulma/">
       <img src="images/smalllogo.png" width="28" height="28">
     </a>
 
@@ -26,7 +26,12 @@
 
   <div id="navMenu{{ include.id }}" class="navbar-menu">
     <div class="navbar-start">
+      <a class="navbar-item bd-navbar-item-index {% if page.route == index %}is-active{% endif %}" href="href="https://halmgren.github.io/bulma/">
+     
+        <span>Home</span>
+      </a>
       {% for item in site.data.global.navbar_items %}
+        
         <a class="navbar-item bd-navbar-item-{{ item.id }} {% if page.route == item.id %}is-active{% endif %}" href="{{ site.url }}/{{ item.id }}/">
           <span>{{ item.title }}</span>
         </a>
