@@ -15,7 +15,8 @@
     {
       "id": "expo",
       "color": "has-text-star",
-      "fa_icon": "fa fa-b",
+      "fa_type": "fa",
+      "fa_icon": "fa-b",
       "title": "Expo"
     },
     {
