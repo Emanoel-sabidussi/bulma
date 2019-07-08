@@ -6,21 +6,21 @@
       "title": "About"
     },
     {
-      "id": "blog",
+      "id": "annualmeeting",
       "color": "bd-has-text-rss",
       "fa_type": "fas",
       "fa_icon": "fa-rss",
       "title": "Annual meeting"
     },
     {
-      "id": "expo",
+      "id": "resources",
       "color": "has-text-star",
       "fa_type": "fa",
       "fa_icon": "fa-b",
       "title": "Resources"
     },
     {
-      "id": "love",
+      "id": "contact",
       "color": "has-text-danger",
       "fa_type": "fas",
       "fa_icon": "fa-heart",
