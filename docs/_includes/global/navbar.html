@@ -26,10 +26,6 @@
 
   <div id="navMenu{{ include.id }}" class="navbar-menu">
     <div class="navbar-start">
-      <a class="navbar-item bd-navbar-item-index {% if page.route == index %}is-active{% endif %}" href="href="https://halmgren.github.io/bulma/">
-     
-        <span>Home</span>
-      </a>
       {% for item in site.data.global.navbar_items %}
         
         <a class="navbar-item bd-navbar-item-{{ item.id }} {% if page.route == item.id %}is-active{% endif %}" href="{{ site.url }}/{{ item.id }}/">
