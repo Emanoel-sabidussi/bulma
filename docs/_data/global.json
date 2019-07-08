@@ -1,10 +1,6 @@
 {
   "navbar_items": [
     {
-      "id": "index",
-      "title": "Home"
-    },
-    {
       "id": "videos",
       "color": "has-text-success",
       "title": "About"
