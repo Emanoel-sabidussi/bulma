@@ -3,28 +3,28 @@
     {
       "id": "haha",
       "color": "has-text-success",
-      "title": "Haha"
+      "title": "About"
     },
     {
       "id": "blog",
       "color": "bd-has-text-rss",
       "fa_type": "fas",
       "fa_icon": "fa-rss",
-      "title": "Blog"
+      "title": "Annual meeting"
     },
     {
       "id": "expo",
       "color": "has-text-star",
       "fa_type": "fa",
       "fa_icon": "fa-b",
-      "title": "Expo"
+      "title": "Resources"
     },
     {
       "id": "love",
       "color": "has-text-danger",
       "fa_type": "fas",
       "fa_icon": "fa-heart",
-      "title": "Love"
+      "title": "Contact"
     }
   ],
   "other_items": [
