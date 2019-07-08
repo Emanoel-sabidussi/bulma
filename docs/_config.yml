@@ -7,7 +7,7 @@ docs_file:     "bulma-docs.min"
 
 markdown:      kramdown
 permalink:     pretty
-url:           https://github.com/halmgren/bulma
+url:           https://halmgren.github.io/bulma/
 exclude:       ['icons', 'node_modules', 'templates', '.babelrc', 'bulma-docs.sass', 'docker-compose.yml', 'package.json', 'yarn.lock']
 
 # Variables
